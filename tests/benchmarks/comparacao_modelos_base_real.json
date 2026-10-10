@@ -1,0 +1,17 @@
+{
+  "descricao": "Métricas do notebook integrado na partição de validação da base analítica real, usadas como benchmark de regressão por tests/test_notebook_integrado.py. Só contém métricas agregadas, nenhum dado de Cliente.",
+  "registrado_em": "2026-09-25",
+  "particao": "validacao",
+  "linhas_validacao": 48301,
+  "tolerancia": 0.0005,
+  "valores": {
+    "Gradient Boosting": {"precisao_media": 0.517397, "roc_auc": 0.733010, "brier": 0.183273},
+    "Regressão Logística": {"precisao_media": 0.501081, "roc_auc": 0.727293, "brier": 0.187716},
+    "Extra Trees": {"precisao_media": 0.485784, "roc_auc": 0.723247, "brier": 0.193596},
+    "Árvore de Decisão": {"precisao_media": 0.441549, "roc_auc": 0.679983, "brier": 0.194678},
+    "Random Forest": {"precisao_media": 0.427083, "roc_auc": 0.671643, "brier": 0.158573},
+    "Classe Majoritária": {"precisao_media": 0.216000, "roc_auc": 0.500000, "brier": 0.216000},
+    "Gradient Boosting calibrado": {"precisao_media": 0.517397, "roc_auc": 0.733010, "brier": 0.140475},
+    "probabilidade constante": {"precisao_media": 0.216000, "roc_auc": 0.500000, "brier": 0.169481}
+  }
+}

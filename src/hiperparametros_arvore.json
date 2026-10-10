@@ -1,0 +1,17 @@
+{
+  "hiperparametros": {
+    "criterion": "entropy",
+    "max_depth": 5,
+    "min_samples_leaf": 50,
+    "class_weight": "balanced"
+  },
+  "criterio_de_busca": "F2 (scorer_f2, card #242, protocolo #238)",
+  "f2_validacao_cruzada": 0.507832,
+  "metricas_na_particao_de_validacao": {
+    "recall_detrator": 0.4758937985239145,
+    "precisao_media": 0.4415485144019479,
+    "roc_auc": 0.6799828250627618
+  },
+  "n_folhas": 32,
+  "decisao": "max_depth=5 (entropy, min_samples_leaf=50, class_weight=balanced) e o vencedor direto da busca por F2 (protocolo #238/#242), e tambem supera profundidade 3 e 4 nas tres metricas de negocio (Sensibilidade, Precisao Media, ROC-AUC) medidas na particao de validacao -- nao houve troca entre metrica e interpretabilidade desta vez, profundidade 5 e simplesmente melhor nas quatro leituras. Profundidade 3 fica abaixo da meta de negocio de Precisao Media >= 0.40 (0.3955). A arvore final tem 32 folhas; a interpretacao do #234 resume os padroes dominantes em vez de enumerar folha por folha."
+}

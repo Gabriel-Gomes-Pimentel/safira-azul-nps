@@ -1,0 +1,35 @@
+{
+  "classe majorit\u00e1ria":{
+    "precisao_media":0.2041468796,
+    "roc_auc":0.5,
+    "brier":0.2041468796,
+    "limiar":0.0,
+    "n_na_fila":53486,
+    "fila_comparavel":false,
+    "precisao_no_topo":0.2041468796,
+    "cobertura":1.0,
+    "f1":0.3390730533
+  },
+  "regress\u00e3o log\u00edstica":{
+    "precisao_media":0.5019063829,
+    "roc_auc":0.7442406095,
+    "brier":0.1876581248,
+    "limiar":0.5992764536,
+    "n_na_fila":9050,
+    "fila_comparavel":true,
+    "precisao_no_topo":0.5282872928,
+    "cobertura":0.4378606099,
+    "f1":0.4788422054
+  },
+  "gradient boosting":{
+    "precisao_media":0.5212496874,
+    "roc_auc":0.7492330569,
+    "brier":0.1312462299,
+    "limiar":0.2934481168,
+    "n_na_fila":9050,
+    "fila_comparavel":true,
+    "precisao_no_topo":0.5385635359,
+    "cobertura":0.4463778734,
+    "f1":0.4881566428
+  }
+}

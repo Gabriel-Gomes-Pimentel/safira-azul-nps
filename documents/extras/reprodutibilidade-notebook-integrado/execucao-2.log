@@ -1,0 +1,38 @@
+base | real | data/processed/base_analitica.parquet
+semente | 42
+linhas | treino | 341962
+prevalencia | treino | 0.20427415911709487
+linhas | validacao | 48301
+prevalencia | validacao | 0.21599966874391835
+linhas | teste | 53486
+prevalencia | teste | 0.20414687955726732
+ordem | Gradient Boosting > Regressão Logística > Extra Trees > Árvore de Decisão > Random Forest > Classe Majoritária
+resultados | Classe Majoritária | brier | 0.21599966874391835
+resultados | Classe Majoritária | precisao_media | 0.21599966874391835
+resultados | Classe Majoritária | roc_auc | 0.5
+resultados | Extra Trees | brier | 0.19359582636319558
+resultados | Extra Trees | precisao_media | 0.48578382481608084
+resultados | Extra Trees | roc_auc | 0.7232473538742756
+resultados | Gradient Boosting | brier | 0.18327336776388378
+resultados | Gradient Boosting | precisao_media | 0.5173965896494139
+resultados | Gradient Boosting | roc_auc | 0.7330095901545676
+resultados | Random Forest | brier | 0.1585727841163558
+resultados | Random Forest | precisao_media | 0.42708279834126234
+resultados | Random Forest | roc_auc | 0.6716429297992469
+resultados | Regressão Logística | brier | 0.18771627084363351
+resultados | Regressão Logística | precisao_media | 0.5010808304230082
+resultados | Regressão Logística | roc_auc | 0.7272930642829576
+resultados | Árvore de Decisão | brier | 0.19467799956613308
+resultados | Árvore de Decisão | precisao_media | 0.4415485144019479
+resultados | Árvore de Decisão | roc_auc | 0.6799828250627618
+calibracao | Gradient Boosting | brier | 0.18327336776388378
+calibracao | Gradient Boosting | precisao_media | 0.5173965896494139
+calibracao | Gradient Boosting | roc_auc | 0.7330095901545676
+calibracao | Gradient Boosting calibrado | brier | 0.14047486762990488
+calibracao | Gradient Boosting calibrado | precisao_media | 0.5173965896494139
+calibracao | Gradient Boosting calibrado | roc_auc | 0.7330095901545676
+calibracao | probabilidade constante | brier | 0.1694812994224446
+calibracao | probabilidade constante | precisao_media | 0.21599966874391835
+calibracao | probabilidade constante | roc_auc | 0.5
+score_medio | sem_calibracao | 0.4190245542611301
+score_medio | calibrado | 0.1890217138862885

@@ -1,0 +1,50 @@
+# SAFIRA | Dependências do projeto
+
+# --- Análise e visualização (seção 4.2.1, exploração de dados) ---
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+python-calamine>=0.2
+matplotlib>=3.7
+seaborn>=0.13
+# scipy em versao exata: e a implementacao dos solvers lbfgs, liblinear e saga
+# que a Regressao Logistica da Secao 4.4 usa, e mudanca de minor ali altera o
+# numero de iteracoes ate convergir e, com ele, o tempo de ajuste medido no
+# card #206. Ver notebooks/regressao_logistica.ipynb, secao 1.4. O #185 depende
+# da mesma trava: a comparacao de custo entre bibliotecas de boosting so vale
+# se o Colab e a maquina de quem revisa rodarem a mesma pilha.
+scipy==1.18.1
+
+# --- Pré-processamento e modelagem (seção 4.2.2 em diante) ---
+# scikit-learn em versao exata a partir do Sprint 04: a comparacao de modelos
+# da Secao 4.4 so e reproduzivel se o Colab, a maquina de quem revisa e a de
+# quem escreveu rodarem a mesma implementacao. Um piso `>=` deixaria o Colab
+# instalar outra minor e devolver coeficiente e metrica diferentes sem aviso.
+scikit-learn==1.9.1
+
+# --- Modelos de ensemble (#185 e #186) ---
+# xgboost e a alternativa ao HistGradientBoostingClassifier do proprio
+# scikit-learn, e os dois espacos de busca do #186 convivem ate a decisao do
+# #185. Fica em versao exata para que a comparacao de custo por ajuste do #185,
+# a busca do #186 e a sessao do Colab rodem sobre a mesma pilha.
+xgboost==3.4.1
+
+# --- Modelagem estatística das hipóteses (seção 4.2.4) ---
+# statsmodels sustenta as regressões logísticas e testes de razão de
+# verossimilhanças no notebook unificado notebooks/hipoteses_nps.ipynb.
+statsmodels>=0.14
+
+# --- Execução dos notebooks ---
+# jupyterlab para abrir e editar; nbconvert e nbclient para a execução
+# verificável de ponta a ponta descrita no README; ipykernel para o kernel.
+jupyterlab>=4.0
+nbconvert>=7.0
+nbclient>=0.9
+ipykernel>=6.25
+
+# --- Testes ---
+pytest>=7.4
+# psutil entra com o teste de fumaca da issue #185: o pico de memoria de um
+# ajuste esta quase todo em alocacao nativa das bibliotecas de boosting, que
+# tracemalloc nao enxerga, e o RSS do processo enxerga.
+psutil==7.2.2

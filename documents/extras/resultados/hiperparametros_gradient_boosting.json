@@ -1,0 +1,18 @@
+{
+  "hiperparametros": {
+    "class_weight": "balanced",
+    "l2_regularization": 1.774425485152653,
+    "learning_rate": 0.049833191601257244,
+    "max_iter": 200,
+    "max_leaf_nodes": 61,
+    "min_samples_leaf": 150
+  },
+  "random_state": 42,
+  "n_iter": 40,
+  "n_folds": 5,
+  "melhor_score_medio": 0.5318454193967451,
+  "tempo_total_s": 7146.9,
+  "corte_validacao": "2025-07-01",
+  "corte_teste": "2026-01-01",
+  "origem_dos_cortes": "registrados depois da busca, no #191: no commit e9bb1d1, que gravou este arquivo, a unica chamada a preparar_matriz do ensembles.ipynb usava 2025-07-01 e 2026-01-01"
+}

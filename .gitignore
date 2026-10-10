@@ -1,0 +1,50 @@
+# ATENÇÃO! Não altere a lista abaixo, para que nenhuma fonte de dados seja incorporada ao seu repositório. 
+# Isso é um compromisso firmado entre o Inteli e seus parceiros de projetos acerca da proteção de dados.
+# 
+*.csv
+*.xls
+*.xlsx
+*.tsv
+*.db
+*.sql
+*.parquet
+*.pkl
+*.pickle
+data/
+
+# --- Configuração local do Claude Code (NUNCA versionar) ---
+# Regra do projeto: nada de configuração de IA vai para o GitLab.
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+
+# --- Ambiente / sistema ---
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Artefatos da exploração de dados (NUNCA versionar) ---
+# Complementa a lista do topo: data/, *.pkl e *.parquet já estão cobertos lá.
+dados/
+out/
+
+# Saídas locais da execução verificável do notebook
+.execucao/
+figuras/
+.pytest_cache/
+
+# Entrega operacional: binarios, manifestos e saidas permanecem locais.
+*.joblib
+artifacts/*
+!artifacts/README.md
+outputs/
+.venv-operacional/

@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Binarios: evita que o Git tente diferenciar linha a linha e, em maquina com
+# core.autocrlf ligado, converta fim de linha dentro do arquivo e o corrompa.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.parquet binary

@@ -1,0 +1,301 @@
+{
+  "criterios": {
+    "CR01": true,
+    "CR02": true,
+    "CR03": true,
+    "maior_diferenca_percentual": 0.0,
+    "limite_percentual": 0.01
+  },
+  "metricas": [
+    {
+      "tabela": "calibracao",
+      "modelo": "Gradient Boosting",
+      "metrica": "brier",
+      "execucao_1": 0.18327336776388378,
+      "execucao_2": 0.18327336776388378,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "Gradient Boosting",
+      "metrica": "precisao_media",
+      "execucao_1": 0.5173965896494139,
+      "execucao_2": 0.5173965896494139,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "Gradient Boosting",
+      "metrica": "roc_auc",
+      "execucao_1": 0.7330095901545676,
+      "execucao_2": 0.7330095901545676,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "Gradient Boosting calibrado",
+      "metrica": "brier",
+      "execucao_1": 0.14047486762990488,
+      "execucao_2": 0.14047486762990488,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "Gradient Boosting calibrado",
+      "metrica": "precisao_media",
+      "execucao_1": 0.5173965896494139,
+      "execucao_2": 0.5173965896494139,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "Gradient Boosting calibrado",
+      "metrica": "roc_auc",
+      "execucao_1": 0.7330095901545676,
+      "execucao_2": 0.7330095901545676,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "probabilidade constante",
+      "metrica": "brier",
+      "execucao_1": 0.1694812994224446,
+      "execucao_2": 0.1694812994224446,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "probabilidade constante",
+      "metrica": "precisao_media",
+      "execucao_1": 0.21599966874391835,
+      "execucao_2": 0.21599966874391835,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "calibracao",
+      "modelo": "probabilidade constante",
+      "metrica": "roc_auc",
+      "execucao_1": 0.5,
+      "execucao_2": 0.5,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Classe Majoritária",
+      "metrica": "brier",
+      "execucao_1": 0.21599966874391835,
+      "execucao_2": 0.21599966874391835,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Classe Majoritária",
+      "metrica": "precisao_media",
+      "execucao_1": 0.21599966874391835,
+      "execucao_2": 0.21599966874391835,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Classe Majoritária",
+      "metrica": "roc_auc",
+      "execucao_1": 0.5,
+      "execucao_2": 0.5,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Extra Trees",
+      "metrica": "brier",
+      "execucao_1": 0.19359582636319558,
+      "execucao_2": 0.19359582636319558,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Extra Trees",
+      "metrica": "precisao_media",
+      "execucao_1": 0.48578382481608084,
+      "execucao_2": 0.48578382481608084,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Extra Trees",
+      "metrica": "roc_auc",
+      "execucao_1": 0.7232473538742756,
+      "execucao_2": 0.7232473538742756,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Gradient Boosting",
+      "metrica": "brier",
+      "execucao_1": 0.18327336776388378,
+      "execucao_2": 0.18327336776388378,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Gradient Boosting",
+      "metrica": "precisao_media",
+      "execucao_1": 0.5173965896494139,
+      "execucao_2": 0.5173965896494139,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Gradient Boosting",
+      "metrica": "roc_auc",
+      "execucao_1": 0.7330095901545676,
+      "execucao_2": 0.7330095901545676,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Random Forest",
+      "metrica": "brier",
+      "execucao_1": 0.1585727841163558,
+      "execucao_2": 0.1585727841163558,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Random Forest",
+      "metrica": "precisao_media",
+      "execucao_1": 0.42708279834126234,
+      "execucao_2": 0.42708279834126234,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Random Forest",
+      "metrica": "roc_auc",
+      "execucao_1": 0.6716429297992469,
+      "execucao_2": 0.6716429297992469,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Regressão Logística",
+      "metrica": "brier",
+      "execucao_1": 0.18771627084363351,
+      "execucao_2": 0.18771627084363351,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Regressão Logística",
+      "metrica": "precisao_media",
+      "execucao_1": 0.5010808304230082,
+      "execucao_2": 0.5010808304230082,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Regressão Logística",
+      "metrica": "roc_auc",
+      "execucao_1": 0.7272930642829576,
+      "execucao_2": 0.7272930642829576,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Árvore de Decisão",
+      "metrica": "brier",
+      "execucao_1": 0.19467799956613308,
+      "execucao_2": 0.19467799956613308,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Árvore de Decisão",
+      "metrica": "precisao_media",
+      "execucao_1": 0.4415485144019479,
+      "execucao_2": 0.4415485144019479,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "resultados",
+      "modelo": "Árvore de Decisão",
+      "metrica": "roc_auc",
+      "execucao_1": 0.6799828250627618,
+      "execucao_2": 0.6799828250627618,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "score_medio",
+      "modelo": "Gradient Boosting",
+      "metrica": "calibrado",
+      "execucao_1": 0.1890217138862885,
+      "execucao_2": 0.1890217138862885,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    },
+    {
+      "tabela": "score_medio",
+      "modelo": "Gradient Boosting",
+      "metrica": "sem_calibracao",
+      "execucao_1": 0.4190245542611301,
+      "execucao_2": 0.4190245542611301,
+      "diferenca_absoluta": 0.0,
+      "diferenca_percentual": 0.0,
+      "identico": true
+    }
+  ]
+}

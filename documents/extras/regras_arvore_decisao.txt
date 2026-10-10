@@ -1,0 +1,94 @@
+|--- numericas__ATRASO_CHEGADA <= 43.50
+|   |--- numericas__ANTECEDENCIA_CANCELAMENTO <= -0.50
+|   |   |--- numericas__ANTECEDENCIA_CANCELAMENTO <= -8.50
+|   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE <= 0.50
+|   |   |   |   |--- categoricas__TIPO_ENTRETENIMENTO_NAO_INFORMADO <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categoricas__TIPO_ENTRETENIMENTO_NAO_INFORMADO >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE >  0.50
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.12
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.12
+|   |   |   |   |   |--- class: 1
+|   |   |--- numericas__ANTECEDENCIA_CANCELAMENTO >  -8.50
+|   |   |   |--- numericas__ANTECEDENCIA_CANCELAMENTO <= -4.50
+|   |   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- numericas__ANTECEDENCIA_CANCELAMENTO >  -4.50
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.75
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.75
+|   |   |   |   |   |--- class: 1
+|   |--- numericas__ANTECEDENCIA_CANCELAMENTO >  -0.50
+|   |   |--- numericas__ESTATISTICA_ATRASOSAIDA <= 2.17
+|   |   |   |--- numericas__missingindicator_TEMPO_VOO <= 0.50
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.45
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.45
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- numericas__missingindicator_TEMPO_VOO >  0.50
+|   |   |   |   |--- categoricas__VOO_TIPO_DIRETO <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categoricas__VOO_TIPO_DIRETO >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- numericas__ESTATISTICA_ATRASOSAIDA >  2.17
+|   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA <= 4.50
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.45
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.45
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA >  4.50
+|   |   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA <= 9.06
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA >  9.06
+|   |   |   |   |   |--- class: 1
+|--- numericas__ATRASO_CHEGADA >  43.50
+|   |--- numericas__ATRASO_CHEGADA <= 99.50
+|   |   |--- numericas__ATRASO_CHEGADA <= 61.50
+|   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE <= 0.50
+|   |   |   |   |--- numericas__TEMPO_VOO <= -0.11
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__TEMPO_VOO >  -0.11
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE >  0.50
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.78
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.78
+|   |   |   |   |   |--- class: 1
+|   |   |--- numericas__ATRASO_CHEGADA >  61.50
+|   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.58
+|   |   |   |   |--- numericas__TEMPO_VOO <= -0.30
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__TEMPO_VOO >  -0.30
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.58
+|   |   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA <= 8.17
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA >  8.17
+|   |   |   |   |   |--- class: 1
+|   |--- numericas__ATRASO_CHEGADA >  99.50
+|   |   |--- numericas__ATRASO_CHEGADA <= 151.50
+|   |   |   |--- numericas__HIST_DETRATOU_ANTES <= 0.50
+|   |   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- categoricas__TIER_VIAGEM_DIAMANTE >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- numericas__HIST_DETRATOU_ANTES >  0.50
+|   |   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA <= 13.17
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA >  13.17
+|   |   |   |   |   |--- class: 1
+|   |   |--- numericas__ATRASO_CHEGADA >  151.50
+|   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA <= 3.83
+|   |   |   |   |--- numericas__ATRASO_CHEGADA <= 1010.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__ATRASO_CHEGADA >  1010.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- numericas__ESTATISTICA_ATRASOSAIDA >  3.83
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR <= 0.58
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- numericas__HIST_TAXA_DETRACAO_ANTERIOR >  0.58
+|   |   |   |   |   |--- class: 1

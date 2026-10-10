@@ -1,0 +1,18 @@
+[
+  {
+    "learning_rate":0.05,
+    "max_leaf_nodes":31,
+    "max_iter":50,
+    "precisao_media":0.4981660342,
+    "precisao_media_desvio":0.005735808,
+    "roc_auc":0.7406037024
+  },
+  {
+    "learning_rate":0.05,
+    "max_leaf_nodes":31,
+    "max_iter":100,
+    "precisao_media":0.5020074964,
+    "precisao_media_desvio":0.0057185872,
+    "roc_auc":0.742321201
+  }
+]
